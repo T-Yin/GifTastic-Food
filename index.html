@@ -36,23 +36,30 @@
                 <!-- Search bar here to add new buttons. -->
                 <form class="form-inline">
                     <div class="form-group mb-2">
-                        <label for="staticEmail2" class="sr-only">Email</label>
-                        <input type="text" readonly class="form-control-plaintext" id="searchFor" value="Search for more food:">
+                        <label for="searchFood" class="sr-only">Food</label>
+                        <input type="text" readonly class="form-control-plaintext" id="searchFood" value="Search for more food:">
                     </div>
+
                     <div class="form-group mx-sm-3 mb-2">
-                        <label for="UserSearch" class="sr-only">brownies, pizza, etc...</label>
-                        <input type="food" class="form-control" id="inputPassword2" placeholder="brownies, pizza, etc...">
+                        <label for="UserSearch" class="sr-only"></label>
+                        <input type="text" class="form-control" id="newFood" placeholder="brownies, pancake, etc...">
                     </div>
-                    <button type="submit" class="btn btn-dark mb-2">Submit</button>
+                    <button id="submitFood" type="submit" class="btn btn-dark mb-2">Submit</button>
                 </form>
             </div>
+        </div>
+
+        <div id="foodGifs" class="row">
+            <!-- Food gifs here. -->
         </div>
 
     </div>
 
     <!-- Link to jQuery and javascript. -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <script src="assets/javascript/search.js"></script>
 
 </body>
