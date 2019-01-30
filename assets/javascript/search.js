@@ -6,11 +6,11 @@ var food = ["cupcake", "sushi", "taco", "pizza", "dumpling", "cookie", "pie", "c
 function displayFoodGifs() {
 
     var food = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=7KpEm4RDSBZa2Bml3Ym3iOls1K2B4oso&limit=12";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=7KpEm4RDSBZa2Bml3Ym3iOls1K2B4oso&limit=12";
 
     $.ajax({
         url: queryURL,
-        mthod: "GET"
+        method: "GET"
     }).then(function (response) {
 
         $("#foodGifs").empty();
