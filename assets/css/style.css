@@ -1,4 +1,33 @@
 img {
     padding: 5px;
     margin: 5px;
+    background-color: white;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+    color: rgb(46, 46, 46);
+}
+
+.container {
+    text-align: center;
+} 
+
+img {
+    border: 1px solid rgb(100, 100, 105);
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+#submitFood {
+    background-color: rgb(100, 100, 105);
+    border-color: rgb(100, 100, 105);
 }

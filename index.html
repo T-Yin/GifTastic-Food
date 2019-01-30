@@ -9,29 +9,32 @@
 
     <!-- Link to Bootstrap and CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+        crossorigin="anonymous">;
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-    <div class="container">
-
+    <div class="container mt-0">
+        <section>
         <div class="row">
+            <div class="col-12 text-center">
             <h1>
-                <p>Get Food Gifs!</p>
+                GifTastic Foods!
             </h1>
+        </div>
         </div>
 
 
         <div class="row">
-            <p id="foodButtons">
+            <p id="foodButtons" class="text-center">
                 <!-- Buttons for food will appear here. New buttons will also be attached here. -->
             </p>
         </div>
 
-        <div class="row">
+        <div class="row text-center">
             <div id="searchBar">
                 <!-- Search bar here to add new buttons. -->
                 <form class="form-inline">
@@ -44,10 +47,11 @@
                         <label for="UserSearch" class="sr-only"></label>
                         <input type="text" class="form-control" id="newFood" placeholder="brownies, pancake, etc...">
                     </div>
-                    <button id="submitFood" type="submit" class="btn btn-dark mb-2">Submit</button>
+                    <button id="submitFood" type="submit" class="btn btn-dark mb-2">submit</button>
                 </form>
             </div>
         </div>
+    </section>
 
         <div id="foodGifs" class="row">
             <!-- Food gifs here. -->
